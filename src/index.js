@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Profile from './Views/Components/Profile/Profile'
+import NavbarContainer from './Views/Components/Cards/NavbarContainer'
+import Sidebar from './Views/Components/Sidebar/Sidebar'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+     <Profile />
+     <NavbarContainer />
+
+     <Sidebar />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
