@@ -1,11 +1,14 @@
 import React from "react";
+import {Container,Row } from 'reactstrap'
 
 const Profile = () => {
   return (
-    <div className="container" style={{ marginTop: "50px" }}>
-      <div className="row">
-        <div className="row">
-          <div className="row">
+    <div className=" " style={{ marginTop: "50px" }}>
+      <Container>
+        <Row sm-8>
+      <div  >
+        <div  >
+          <div  >
             <svg
               className="bd-placeholder-img rounded-circle"
               width="80"
@@ -29,16 +32,10 @@ const Profile = () => {
           </div>
         </div>
 
-        <div className="row">
-          <div className="row">
-            
-            {/* <div className="row-lg-4">
-              <h4>Milo Gibson</h4>
-              <p>Lorem ipsum dom </p>
-            </div> */}
-          </div>
-        </div>
+        
       </div>
+      </Row>
+      </Container>
     </div>
   );
 };
